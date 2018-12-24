@@ -15,7 +15,7 @@ public class HiloServidor extends Thread {
 
 		this.skCliente = p_cliente;
 		this.ipCtrl = ipCtrl;
-		this.puertoCtrl = puertoCtrl;
+	
 
 	}
 
