@@ -12,7 +12,7 @@ public class Registro {
 	//@SuppressWarnings("deprecation")
 	public static void main (String[] args) {
 
-		String URLRegistro = "";
+		String URLRegistro = "dato";
 
         try {
 
