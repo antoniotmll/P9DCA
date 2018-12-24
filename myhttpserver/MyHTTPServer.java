@@ -11,7 +11,7 @@ public class MyHTTPServer {
 		String puerto = ""; //variable donde se guarda el puerto a escuchar
 		String peticion = ""; //variable donde se guarda el número de peticiones concurrentes
 		String ipCtrl = ""; //var para guardar la ip
-		String puertoCtrl = ""; //var para guardar el puerto del controlador
+		String puertoCtrl = "prueba"; //var para guardar el puerto del controlador
 		
 		
 		try {
