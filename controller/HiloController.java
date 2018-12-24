@@ -10,7 +10,6 @@ public class HiloController extends Thread {
 
 	private Socket skCliente;
 	private String iprmi = "";
-	private String puertormi = "";
 
 	private String server = "rmi://"+iprmi+":"+puertormi;
 
