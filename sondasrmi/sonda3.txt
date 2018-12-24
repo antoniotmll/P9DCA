@@ -1,0 +1,5 @@
+Identificador=3
+Temperatura=28
+Humedad=75
+Fecha=3/10/2012
+Hora=10:22:14

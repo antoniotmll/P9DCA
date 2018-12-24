@@ -1,0 +1,5 @@
+Identificador=1
+Temperatura=31
+Humedad=27
+Fecha=10/4/2017
+Hora=10:40:24

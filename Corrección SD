@@ -1,0 +1,37 @@
+*MYHTTPSERVER*
+
+*Se puede parametrizar el número de conexiones simultáneas del servidor --> 0.2 (ok)
+*Se puede parametrizar el puerto por el que escucha el servidor --> 0.2
+*Si se utiliza un comando HTTP distinto de GET se controla el error 405 --> 0.2 (ok)
+*Si se solicita un recurso inexistente se controla el error 404
+(devolviendo la página de error 404.html) --> 0.2 (ok)
+*Si se solicita un recurso estático existente se sirve adecuadamente --> 0.5 (ok)
+*Si se solicita un recurso dinámico se conecta con Controller (en la url aparece …/controladorSD/…) --> 0.4 (ok)
+*Si se produce un error de conexión al controlador se maneja el error 409 --> 0.2 (ok)
+*Se puede indicar la IP y puerto donde escucha Controller
+(por lo tanto Controller puede residir en cualquier máquina) --> 0.5 (ok)
+*Si recibe respuesta de Controller ésta es servida al usuario --> 0.2 (ok)
+*Existe un Index por defecto al acceder a la IP:puerto del servidor --> (0.2) (ok)
+
+
+*CONTROLLER*
+*El puerto de escucha de peticiones del servidor es parametrizable --> (0.5) (ok)
+*Se puede indicar IP:puerto del registro RMI --> (0.3) (ok)
+*Puede manejar más de dos Sondas y Actuadores
+(el alumno demostrará como despliega una 3ª sonda al menos) --> Dos sondas si, actuadores no (0,3) ?
+*Si recibe la petición de un get/set de una variable que no existe devuelve error -> (0.3) (ok)
+*Existe un index del controlador que muestra todas las Sondas registradas --> 0.5 (ok)
+*Funcionamiento correcto operaciones get/set (volumen, fecha, fecha_actual, luz, setluz)
+--> los get sí, set no hay (0.5) ?
+
+*SONDAS Y ACTUADORES*
+*Se pueden desplegar varias Sondas y Actuadores
+(se registran adecuadamente y se puede acceder a ellas cada una por su nombre) --> Sondas si (1,5) ??
+*Cada Sonda o Actuador utiliza un archivo asociado sondaX.txt / actuadorX.txt distinto --> Si (sondas) (0,5) (ok)
+*Las variables están contenidas en un archivo
+(que podemos consultar y cambiar a voluntad en el caso de actuadores), -> (0.4) (ok)
+*Funcionamiento correcto get/set de los parámetros de los componentes distribuidos (0.2) --> (ok)
+
+
+*GENERAL*
+Entrega la memoria (informe de desarrollo, detalle de despliegue, resultados, formato y corrección)

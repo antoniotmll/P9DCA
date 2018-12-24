@@ -1,0 +1,5 @@
+Identificador=2
+Temperatura=15
+Humedad=87
+Fecha=7/3/2008
+Hora=9:12:32
