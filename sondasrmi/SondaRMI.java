@@ -22,7 +22,7 @@ public class SondaRMI extends UnicastRemoteObject implements Serializable, Inter
 		File archivo = null;
 		FileReader fr = null;
 		BufferedReader br = null;
-		this.sonda = sonda;
+		
 
 		try {
 
